@@ -1,4 +1,4 @@
-import 'package:my_app_isims/apod_model.dart';
+import 'package:my_app_isims/features/fetch_apod/models/apod_model.dart';
 
 final List<ApodModel> apodData = [
   ApodModel(

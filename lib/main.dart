@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_app_isims/apod_home.dart';
+import 'package:my_app_isims/features/fetch_apod/presentation/pages/apod_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
         useMaterial3: true,
       ),
-      home: const ApodHome(),
+      home: const ApodPage(),
     );
   }
 }
